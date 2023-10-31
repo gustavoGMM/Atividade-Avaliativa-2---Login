@@ -79,10 +79,17 @@ form > input {
  }
 
  h1{
-    background-color: rgb(53, 43, 32);
-    color: rgb(5, 106, 238);
+    color: rgb(10, 66, 170);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 100px;
+    text-shadow: 5px 5px 5px rgb(231, 90, 25);
  }
 
  nav{
     background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    color: yellow;
+   
  }
