@@ -1,4 +1,19 @@
+@font-face  {
+  font-family: 'platinum';
+  src: url(../font/platinum_sign/Platinum\ Sign\ Over.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: platinum;
+    background-color: black;
+    color: rgb(209, 23, 23);
+    height: 60px;
+    font-size: 45px;
 }
