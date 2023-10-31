@@ -1,25 +1,31 @@
 *{
-    background-color: rgb(174, 177, 29);
+    margin: 0;
+    background-color: rgb(205, 240, 247);
 }
 form  div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 16px;  
+    margin-bottom: 16px; 
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
-h4{
+h2{
     text-align: center;
-    background-color: rgb(3, 2, 2);
+    background-color: rgb(0, 140, 255);
     color: rgb(255, 254, 254);
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 5px;
    
 }
 
 h1{
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color:transparent;
+    color: rgb(41, 213, 219);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    font-size: 65px;
+    text-shadow: 5px 5px 5px rgb(8, 7, 6);
 }
 
 fieldset{

@@ -9,9 +9,21 @@
     <h1>Faça Seu Cadastro</h1>
 </head>
 <body>
+  
+  <style>
+    body{
+        height: 100vh;
+        width: 100%;
+        background-image: url(/imagens/cada.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+    }
+</style>
+
+
     <form autocomplete="on">
         <fieldset>
-            <legend><h1>Dados Pessoais</h1></legend>
+            <legend><h2>Dados Pessoais</h2></legend>
           <div>
               <label for="nome">Nome:</label>
               <input 
@@ -31,16 +43,6 @@
              placeholder="(xx)xxxx-xxxx"
              autocomplete="tel">
           </div>
-
-          <div>
-        <label for="bday-month">Data de Nascimento</label>
-        <input 
-         type="text"
-         name="dt_nacismento"
-         id="dt_nacismento"
-         placeholder="dd/mm/yyyy"
-         autocomplete="bday-month">
-        </div>
 
 
          <div>
