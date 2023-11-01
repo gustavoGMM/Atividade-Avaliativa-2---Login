@@ -1,6 +1,6 @@
 @font-face  {
-  font-family: 'platinum';
-  src: url(../font/platinum_sign/Platinum\ Sign\ Over.ttf);
+  font-family: 'square';
+  src: url(../font//squarefont/Square.ttf);
 }
 
 *{
@@ -27,38 +27,45 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   text-align: center;
 }
 
-section, h1{
+section, h4, p{
        text-align: center;
+       color: rgb(0, 255, 0);
+       background-color: none;
+       font-size: 45px;
+
 
  }
 
 
 
 #bg-image1{
-  background-image: url(/imagens/03044434809000.webp);
+  background-image: url(/imagens/ds.png);
+  
  
 }
 
 #bg-image2{
-  background-image: url(/imagens/1xg.webp);
+  background-image: url(/imagens/aw.png);
   
 }
 
 #bg-image3{
-  background-image: url(/imagens/kf-img.png);
+  background-image: url(/imagens/2060-super-mancer-ss-001-pichau.png);
   
 }
 
 #bg-image4{
-  background-image: url(/imagens/placadeVideo\ \(4\).jpg);
+  background-image: url(/imagens/2-PhotoRoom.png-PhotoRoom\ \(1\).png);
   
 }
 
+footer, h3, p{
+  background-color: rgb(163, 17, 17);
+}
 
