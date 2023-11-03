@@ -26,6 +26,7 @@ div > input {
   width: 100%;
   font-size: 15px;
   padding: 5px;
+  background-color: white;
 }
 
 h1 {
