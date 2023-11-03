@@ -58,7 +58,7 @@ section {
 .link-as-button {
   display: inline-block;
   padding: 5px 10px;
-  background-color: transparent;
+  background-color: rgb(56, 209, 18);
   border: none;
   text-decoration: none;
   color: black;
