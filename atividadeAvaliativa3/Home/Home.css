@@ -1,0 +1,11 @@
+:root{
+    --azul: #6EB3D0;
+    --verde: #3f8323;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+header,footer{
+    background-color: var(--azul);
+}
+
