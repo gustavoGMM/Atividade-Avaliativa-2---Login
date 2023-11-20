@@ -1,14 +1,37 @@
-:root{
-    --verde: #48ff00;
-    --amarelo: rgb(253, 249, 6);
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-.form-container {
-      max-width: 600px;
-      padding: 1rem;
 
+#carouselExample {
+    margin-top: 20px;
 }
 
+
+.container {
+    margin-top: 50px;
+}
+
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+.btn-primary {
+    margin-top: 10px;
+}
+
+
+.display-1 {
+    margin-bottom: 20px;
+}
 
 
 
